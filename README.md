@@ -6,5 +6,5 @@ If you like it feel free to use it as you want. I accept any suggestion for impo
 **-Martin**
 
 thanks to:
-Bootstrap (css framework)
-dij8 creator (http://www.dynamicdrive.com for the coursore script)
+Bootstrap (css framework) and 
+dij8 creator of the cursore script (http://www.dynamicdrive.com)
