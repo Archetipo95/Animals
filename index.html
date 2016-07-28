@@ -31,6 +31,39 @@
             left: 0;
             visibility: hidden;
         }
+        .slide1 {
+            background-image: url('/Animals/img/vet04.jpg');
+            height: 500px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .slide2 {
+            background-image: url('/Animals/img/vet03.jpg');
+            height: 500px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .slide3 {
+            background-image: url('/Animals/img/vet05.jpg');
+            height: 500px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .carousel-caption h1 {
+            font-size: 5.4em;
+            font-family: 'Pacifico', cursive;
+            padding-bottom: .4em;
+        }
+        
+        .carousel-caption p {
+            font-size: 2em;
+        }
     </style>
     
     <script language="JavaScript1.2" type="text/JavaScript">
@@ -170,6 +203,7 @@
                         </ul>
                         
                     <li><a href="#">TEAM </a></li>
+                    <li><a href="#">STRUCTURE </a></li>
                     
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">QUICK INFO <span class="caret"></span></a>
@@ -177,6 +211,7 @@
                             <li><span class="glyphicon glyphicon-earphone" style=" text-align: left; margin-left:2px;"></span> 0123456789 </li>
                             <li><span class="glyphicon glyphicon-envelope" style="text-align: left; margin-left:2px; margin-left:2px;"></span> example@gmail.com </li>
                             <li><span class="glyphicon glyphicon-home" style="text-align: left;margin-left:2px;"></span> 345 Fischer Ave, CM</li>
+                            <li><span class="glyphicon glyphicon-time" style="text-align: left;margin-left:2px;"></span> MON-SAT 8:00/18:00</li>
                         </ul>
                     </li>
                 </ul>
@@ -188,6 +223,8 @@
                             <li><a href="#"><img src="img/UK.png"> English</a></li>
                             <li><a href="ita/index.html"><img src="img/ITA.png"> Italian</a></li>
                             <li><a href="mkd/index.html"><img src="img/MKD.png"> Macedonian</a></li>
+                            <li><a href="#"><img src="img/FR.png"> French</a></li>
+                            <li><a href="#"><img src="img/ESP.png"> Spanish</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -197,7 +234,50 @@
         <!-- /.container-fluid -->
     </nav>
 </div>
+   
+    <!-- Carosel -->
+    <div id="theCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom:40px;">
+        <ol class="carousel-indicators">
+            <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#theCarousel" data-slide-to="1"></li>
+            <li data-target="#theCarousel" data-slide-to="2"></li>
+        </ol>
 
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="slide1">
+                    <div class="carousel-caption">
+                        <h1>ANIMAL VETS</h1>
+                        <p>Healthy Animals Healthy Humans</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="slide2"></div>
+                <div class="carousel-caption">
+                    <h1>Prevention is the Solution</h1>
+                    <p>Specially For Puppies</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="slide3"></div>
+                <div class="carousel-caption">
+                    <h1>Let Us Take Care</h1>
+                    <p>They Are In Good Hands</p>
+                </div>
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#theCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+    
     <div class="container">
 
         <p>Eiusmod in nulla, fabulas sint esse ne multos. Offendit ab irure arbitror et eram excepteur e aliqua enim. Ita pariatur ne singulis, voluptate varias minim vidisse nulla. Amet doctrina mandaremus, ne dolor id veniam se litteris aut labore, laborum praesentibus ab proident iis non minim probant, quae incididunt sed tractavissent qui irure exquisitaque occaecat dolore tempor, veniam singulis nam distinguantur. Et tamen summis sunt pariatur non et culpa multos amet laborum sed labore ingeniis aut quibusdam, iudicem quae sunt eu veniam si irure expetendis quo incurreret an officia iis legam doctrina e quibusdam si magna offendit o magna philosophari cupidatat aliqua laboris. Arbitror in aliquip. Quorum possumus sed fore labore, est sunt consequat proident.</p>
