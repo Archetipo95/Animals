@@ -6,25 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!--favicon-->
     <link rel="shortcut icon" href="/Animals/favicon.ico">
+    <!--Color chrome mobile-->
     <meta name="theme-color" content="#222222">
+    <!--Site title-->
     <title>Animal vets</title>
-
     <!-- Bootstrap -->
     <link href="/Animals/css/bootstrap.min.css" rel="stylesheet">
-
+    
+    
     <style type='text/css'>
         body {
-            cursor:url(/Animals/img/dog_cursor.gif), auto;
+            cursor: url(/Animals/img/dog_cursor.gif), auto;
             padding-top: 65px;
             padding-bottom: 70px;
             background-color: #fafafa;
             //overflow:hidden;
         }
+        
         #logo {
             padding-top: 5px;
             padding-right: 5px;
         }
+        
         .kisser {
             position: absolute;
             z-index: 1000;
@@ -32,6 +37,7 @@
             left: 0;
             visibility: hidden;
         }
+        
         .slide1 {
             background-image: url('/Animals/img/vet04.jpg');
             height: 450px;
@@ -66,37 +72,43 @@
             font-size: 2em;
         }
         /* Box styles */
+        
         .myBox {
             border: none;
-padding: 5px;
-font: 24px/36px sans-serif;
-width: 200px;
-height: 200px;
-overflow: scroll;
-}
-
-/* Scrollbar styles */
-::-webkit-scrollbar {
-width: 10px;
-height: 12px;
+            padding: 5px;
+            font: 24px/36px sans-serif;
+            width: 200px;
+            height: 200px;
+            overflow: scroll;
         }
-    ::-webkit-scrollbar-track {
-      background-color: #222222;
-} /* the new scrollbar will have a flat appearance with the set background color */
- 
-::-webkit-scrollbar-thumb {
-      background-color: #0C8751;
-} /* this will style the thumb, ignoring the track */
- 
-::-webkit-scrollbar-button {
-    height: 0px;  
-    background-color: #222222;
-} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
- 
-::-webkit-scrollbar-corner {
-      background-color: #222222;
-} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
-    
+        
+        /* SCROLL BAR*/
+        
+        ::-webkit-scrollbar {
+            width: 10px;
+            height: 12px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background-color: #222222;
+        }
+        /* the new scrollbar will have a flat appearance with the set background color */
+        
+        ::-webkit-scrollbar-thumb {
+            background-color: #0C8751;
+        }
+        /* this will style the thumb, ignoring the track */
+        
+        ::-webkit-scrollbar-button {
+            height: 0px;
+            background-color: #222222;
+        }
+        /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+        
+        ::-webkit-scrollbar-corner {
+            background-color: #222222;
+        }
+        /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
     </style>
     
     <script language="JavaScript1.2" type="text/JavaScript">
@@ -203,11 +215,10 @@ height: 12px;
     
     window.onload=kissbegin
 </script>
-
 </head>
 
 <body>
-
+    
     <div class="container">
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
@@ -235,8 +246,8 @@ height: 12px;
                             <li><a href="#" >Large Animals</a></li>
                         </ul>
                         
-                    <li><a href="#">TEAM </a></li>
                     <li><a href="#">STRUCTURE </a></li>
+                    <li><a href="#">TEAM </a></li>
                     
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">QUICK INFO <span class="caret"></span></a>
@@ -267,7 +278,7 @@ height: 12px;
         <!-- /.container-fluid -->
     </nav>
 </div>
-   
+    
     <!-- Carosel -->
     <div id="theCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom:40px;">
         <ol class="carousel-indicators">
@@ -313,7 +324,12 @@ height: 12px;
     
     <div class="container">
 
-        <p>Eiusmod in nulla, fabulas sint esse ne multos. Offendit ab irure arbitror et eram excepteur e aliqua enim. Ita pariatur ne singulis, voluptate varias minim vidisse nulla. Amet doctrina mandaremus, ne dolor id veniam se litteris aut labore, laborum praesentibus ab proident iis non minim probant, quae incididunt sed tractavissent qui irure exquisitaque occaecat dolore tempor, veniam singulis nam distinguantur. Et tamen summis sunt pariatur non et culpa multos amet laborum sed labore ingeniis aut quibusdam, iudicem quae sunt eu veniam si irure expetendis quo incurreret an officia iis legam doctrina e quibusdam si magna offendit o magna philosophari cupidatat aliqua laboris. Arbitror in aliquip. Quorum possumus sed fore labore, est sunt consequat proident.</p>
+        <h1>Welcome to the Animals Vets Clinic</h1>
+        <h4><p class="text-justify">Where a dedicated team of professionals provides the most advanced medical, surgical, and diagnostic services to pet owners and referring veterinarians. The Animals Vets Clinic is comprised of board-certified veterinarians, veterinary residents in advanced specialist training programs, animal health technicians, patient care specialists, client service representatives, administrators and veterinary students. All work together toward the common goal of delivering the highest possible standard of compassionate veterinary care to ill or injured animals, while training the next generation of veterinary practitioners and specialists.</p>
+        </h4>
+        <h3 class="text-justify bg-warning">In addition to the many specialty services available through regularly scheduled appointments, the AVC also provides emergency care 24 hours/day, 365 days/year.
+
+        Contact the AVC at 123-456789</h3>
 
         <p>Eiusmod in nulla, fabulas sint esse ne multos. Offendit ab irure arbitror et eram excepteur e aliqua enim. Ita pariatur ne singulis, voluptate varias minim vidisse nulla. Amet doctrina mandaremus, ne dolor id veniam se litteris aut labore, laborum praesentibus ab proident iis non minim probant, quae incididunt sed tractavissent qui irure exquisitaque occaecat dolore tempor, veniam singulis nam distinguantur. Et tamen summis sunt pariatur non et culpa multos amet laborum sed labore ingeniis aut quibusdam, iudicem quae sunt eu veniam si irure expetendis quo incurreret an officia iis legam doctrina e quibusdam si magna offendit o magna philosophari cupidatat aliqua laboris. Arbitror in aliquip. Quorum possumus sed fore labore, est sunt consequat proident.</p>
 
@@ -337,7 +353,7 @@ height: 12px;
 
         </div>
     </div>
-
+   
     <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation" style="padding-top: 10px; padding-bottom: 0px;">
         <div class="container">
             <div class="row">
@@ -380,8 +396,8 @@ height: 12px;
                 
             </div>
         </div>
-    </div>
-
+    </div> 
+    
     <script language="JavaScript" type="text/JavaScript">
         // Add all DIV's of hearts
         if (document.all||document.getElementById||document.layers){
@@ -390,12 +406,14 @@ height: 12px;
                 document.write('<div id="kisser' + (k+1) + '" class="kisser"><img src="' + theimage2 + '" alt="" border="0"></div>\n')
             }
         }
+        
     </script>
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    
 </body>
 
 </html>
