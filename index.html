@@ -17,99 +17,103 @@
     
     
     <style type='text/css'>
-        body {
-            cursor: url(/Animals/img/dog_cursor.gif), auto;
-            padding-top: 65px;
-            padding-bottom: 70px;
-            background-color: #fafafa;
-            //overflow:hidden;
-        }
+    body {
+        cursor: url(/Animals/img/dog_cursor.gif), auto;
+        padding-top: 65px;
+        padding-bottom: 70px;
+        background-color: #fafafa;
+        //overflow:hidden;
+    }
         
-        #logo {
-            padding-top: 5px;
-            padding-right: 5px;
-        }
-        
-        .kisser {
-            position: absolute;
-            z-index: 1000;
-            top: 0;
-            left: 0;
-            visibility: hidden;
-        }
-        
-        .slide1 {
-            background-image: url('/Animals/img/vet04.jpg');
-            height: 450px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-        }
-        
-        .slide2 {
-            background-image: url('/Animals/img/vet03.jpg');
-            height: 450px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-        }
-        
-        .slide3 {
-            background-image: url('/Animals/img/vet05.jpg');
-            height: 450px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-        }
-        
-        .carousel-caption h1 {
-            font-size: 5.4em;
-            font-family: 'Pacifico', cursive;
-            padding-bottom: .4em;
-        }
-        
-        .carousel-caption p {
-            font-size: 2em;
-        }
-        /* Box styles */
-        
-        .myBox {
-            border: none;
-            padding: 5px;
-            font: 24px/36px sans-serif;
-            width: 200px;
-            height: 200px;
-            overflow: scroll;
-        }
-        
-        /* SCROLL BAR*/
-        
-        ::-webkit-scrollbar {
-            width: 10px;
-            height: 12px;
-        }
-        
-        ::-webkit-scrollbar-track {
-            background-color: #222222;
-        }
-        /* the new scrollbar will have a flat appearance with the set background color */
-        
-        ::-webkit-scrollbar-thumb {
-            background-color: #0C8751;
-        }
-        /* this will style the thumb, ignoring the track */
-        
-        ::-webkit-scrollbar-button {
-            height: 0px;
-            background-color: #222222;
-        }
-        /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
-        
-        ::-webkit-scrollbar-corner {
-            background-color: #222222;
-        }
-        /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
-    </style>
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a,.navbar-inverse .navbar-nav .open .dropdown-menu {
+        background-color: #222;
+        color:#ffffff;
+    }
+    
+    #logo {
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+    
+    .kisser {
+        position: absolute;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        visibility: hidden;
+    }
+    
+    .slide1 {
+        background-image: url('/Animals/img/vet04.jpg');
+        height: 450px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .slide2 {
+        background-image: url('/Animals/img/vet03.jpg');
+        height: 450px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .slide3 {
+        background-image: url('/Animals/img/vet05.jpg');
+        height: 450px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .carousel-caption h1 {
+        font-size: 5.4em;
+        font-family: 'Pacifico', cursive;
+        padding-bottom: .4em;
+    }
+    
+    .carousel-caption p {
+        font-size: 2em;
+    }
+    /* Box styles */
+    
+    .myBox {
+        border: none;
+        padding: 5px;
+        font: 24px/36px sans-serif;
+        width: 200px;
+        height: 200px;
+        overflow: scroll;
+    }
+    /* SCROLL BAR*/
+    
+    ::-webkit-scrollbar {
+        width: 10px;
+        height: 12px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background-color: #222222;
+    }
+    /* the new scrollbar will have a flat appearance with the set background color */
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: #0C8751;
+    }
+    /* this will style the thumb, ignoring the track */
+    
+    ::-webkit-scrollbar-button {
+        height: 0px;
+        background-color: #222222;
+    }
+    /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+    
+    ::-webkit-scrollbar-corner {
+        background-color: #222222;
+    }
+    /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+</style>
     
     <script language="JavaScript1.2" type="text/JavaScript">
 
@@ -251,7 +255,7 @@
                     
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">QUICK INFO <span class="caret"></span></a>
-                        <ul class="dropdown-menu" style="color:red;">
+                        <ul class="dropdown-menu" style="color:red; font-weight: bold;">
                             <li><span class="glyphicon glyphicon-earphone" style=" text-align: left; margin-left:2px;"></span> 0123456789 </li>
                             <li><span class="glyphicon glyphicon-envelope" style="text-align: left; margin-left:2px; margin-left:2px;"></span> example@gmail.com </li>
                             <li><span class="glyphicon glyphicon-home" style="text-align: left;margin-left:2px;"></span> 345 Fischer Ave, CM</li>
