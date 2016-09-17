@@ -222,7 +222,7 @@
 </head>
 
 <body>
-    
+    <A NAME="arrowUP">
     <div class="container">
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
@@ -357,7 +357,26 @@
 
         </div>
     </div>
-   
+  
+    <div class="hidden-sm hidden-xs">
+    <button onclick="scrollWinUP()" style="position:fixed;"><span class="glyphicon glyphicon-chevron-up" style="position: fixed; left: 95%; top: 70%;font-size:35px;color:#0C8751;"></span></button>
+    
+    <button onclick="scrollWinDOWN()" style="position:fixed;"><span class="glyphicon glyphicon-chevron-down" style="position: fixed; left: 95%; top: 80%;font-size:35px;color:#0C8751;"></span></button>
+        </div>
+        
+    <script>
+        function scrollWinUP() {
+        window.scrollBy(0, -100);
+        }
+    </script>    
+    
+    <script>
+        function scrollWinDOWN() {
+        window.scrollBy(0, 100);
+        }
+    </script>
+    
+       
     <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation" style="padding-top: 10px; padding-bottom: 0px;">
         <div class="container">
             <div class="row">
